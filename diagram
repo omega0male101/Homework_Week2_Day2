@@ -1,0 +1,29 @@
+
+Classes: Engine
+  Art: Snake and Ladder Locations
+
+  Meth: -Add position if Ladder
+        -Remove Postion if snake
+        -Update Player Counter
+        -Return position to 'Game Class'
+
+
+Class - Player Counter
+  Art: Board Position Number
+
+  Meth: - Add/Minus position
+        - Return Win after reaching Top.
+
+
+
+Class - Die
+  Art: Number Range (1-6)
+  Meth: Randomize Number
+
+
+Class - Game/Turn
+    Art - Position (Number)
+
+  Method: - Run 'Die Class'
+          - Display Postition on board
+          - Pass Number to engine
